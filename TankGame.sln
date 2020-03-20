@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TankGame", "TankGame\TankGame.csproj", "{9EED4117-25BC-4234-8A5D-709788E83608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathClasses", "MathClasses\MathClasses.csproj", "{93BC4FF5-4A18-468D-A676-F62F770A6937}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Raylib", "Raylib\Bindings\Raylib.shproj", "{F660FF67-D70E-4AE0-9080-D922243E9B6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{2731BE78-C467-4E92-9381-4F6B9EA68963}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Raylib\Bindings\Raylib.projitems*{f660ff67-d70e-4ae0-9080-d922243e9b6e}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EED4117-25BC-4234-8A5D-709788E83608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EED4117-25BC-4234-8A5D-709788E83608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EED4117-25BC-4234-8A5D-709788E83608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EED4117-25BC-4234-8A5D-709788E83608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93BC4FF5-4A18-468D-A676-F62F770A6937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93BC4FF5-4A18-468D-A676-F62F770A6937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93BC4FF5-4A18-468D-A676-F62F770A6937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93BC4FF5-4A18-468D-A676-F62F770A6937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2731BE78-C467-4E92-9381-4F6B9EA68963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2731BE78-C467-4E92-9381-4F6B9EA68963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2731BE78-C467-4E92-9381-4F6B9EA68963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2731BE78-C467-4E92-9381-4F6B9EA68963}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {623FF5E5-A004-4093-9F87-074D4FBDD0DC}
+	EndGlobalSection
+EndGlobal
