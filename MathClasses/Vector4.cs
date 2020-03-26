@@ -18,5 +18,17 @@ namespace MathClasses
             w = 0;
         }
 
+        public Vector4(float _x, float _y, float _z, float _w)
+        {
+            x = _x;
+            y = _y;
+            z = _z;
+            w = _w;
+        }
+        public float MagnitudeSqr() 
+        { 
+          return (x * x + y * y + z * z + w * w); 
+        }
+        
     }
 }
