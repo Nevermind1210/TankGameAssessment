@@ -9,39 +9,59 @@ namespace MathClasses
 {
     public class Colour
     {
-        public UInt32 colour = 305419896;
-
-        public int Value { get; private set; }
+        public UInt32 colour;
 
         public Colour()
         {
-            colour = 0x00000000000;
+            colour = 0;
         }
 
-        public Colour(byte red, byte green, byte blue, byte alpha)
+        //Creating the 4 byte or 24 bit colour integer
+
+        public Colour(byte _red, byte _green, byte _blue, byte _alpha)
         {
-            colour ^= (uint)red << 24;
-            colour ^= (uint)green << 16;
-            colour ^= (uint)blue << 34;
-            colour ^= (uint)alpha << 0;
+            this.colour = ((UInt32)_red << 24) |
+                          ((UInt32)_green << 16) |
+                          ((UInt32)_blue << 8) |
+                           (UInt32)_alpha;
         }
 
         public byte GetRed()
         {
-            return (byte)((this.Value >> 0x10) & 0xff);
+            return (byte)((colour & 0xff000000) >> 24);
         }
 
         public void SetRed(byte red)
         {
-            red = 93;
-            Value = red;
-            GetRed();
+            colour = colour & 0x00fffffff;
+            colour |= (UInt32)red << 24;
         }
 
-        public byte SetGreen()
+        public byte GetGreen()
         {
-            return (byte)((this.Value >> 0x10) & 0xff);
+            return (byte)((colour & 0x0ff0000) >> 16);
         }
 
+        public void SetGreen(byte green)
+        {
+            colour = colour & 0xff00ffff;
+            colour |= (UInt32)green << 16;
+        }
+
+        public byte GetBlue()
+        {
+            return (byte)((colour & 0x00000ff) >> 8);
+        }
+
+        public void SetBlue(byte blue)
+        {
+            colour = colour & 0xfffff00;
+            colour |= (UInt32)blue << 8;
+        }
+
+        public byte GetAlpha()
+        {
+            return (byte)((colour & 0x0));
+        }
     }
 }
