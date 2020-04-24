@@ -124,40 +124,40 @@ namespace Project2D
                 child.UpdateTransform();
         }
 
-        //public void SetPosition(float x, float y)
-        //{
-        //    localTransform.SetTranslation(x, y);
-        //    UpdateTransform();
-        //}
+        public void SetPosition(float x, float y)
+        {
+            localTransform.SetTranslation(x, y);
+            UpdateTransform();
+        }
 
-        //public void SetRotate(float radians)
-        //{
-        //    localTransform.SetTranslation(x, y);
-        //    UpdateTransform();
-        //}
+        public void SetRotate(float radians)
+        {
+            localTransform.SetRotateZ(radians);
+            UpdateTransform();
+        }
 
-        //public void SetScale(float width, float height)
-        //{
-        //    localTransform.Translate(x, y);
-        //    UpdateTransform();
-        //}
+        public void SetScale(float width, float height)
+        {
+            localTransform.SetScaled(width, height, 1);
+            UpdateTransform();
+        }
 
-        //public void Translate(float x, float y)
-        //{
-        //    localTransform.SetScaled(width, height, 1);
-        //    UpdateTransform();
-        //}
+        public void Translate(float x, float y)
+        {
+            localTransform.Translate(x, y);
+            UpdateTransform();
+        }
 
-        //public void Rotate(float radians)
-        //{
-        //    localTransform.SetRotateZ(radians);
-        //    UpdateTransform();
-        //}
+        public void Rotate(float radians)
+        {
+            localTransform.RotateZ(radians);
+            UpdateTransform();
+        }
 
-        //public void Scale(float width, float height)
-        //{
-        //    localTransform.Scale(width, height, 1);
-        //    UpdateTransform();
-        //}
+        public void Scale(float width, float height)
+        {
+            localTransform.Scale(width, height, 1);
+            UpdateTransform();
+        }
     }
 }

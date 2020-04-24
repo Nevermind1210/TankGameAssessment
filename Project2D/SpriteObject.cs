@@ -41,7 +41,7 @@ namespace Project2D
 
             Raylib.Raylib.DrawTextureEx(
                 texture, new Vector2(globalTransform.m7, globalTransform.m8), 
-                rotation * (float)(100.0f / Math.PI),
+                rotation * (float)(180.0f / Math.PI),
                 1, Color.WHITE);
         }
     }

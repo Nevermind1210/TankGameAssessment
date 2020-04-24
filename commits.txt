@@ -1,0 +1,29 @@
+commit 38b4999c10edd08a40c88e8ac886dacc291055f0
+Author: Xavier Arias <xavier_rate@outlook.com>
+Date:   Thu Apr 23 09:14:52 2020 +1000
+
+    Added additional code for math library
+
+commit 4a809dce705ee9c13b96bd63215506a5b8c2461c
+Author: Xavier Arias <xavier_rate@outlook.com>
+Date:   Thu Mar 26 11:45:10 2020 +1100
+
+    Adding new files and new vector and matrix's additions
+
+commit 8bedf8085558930931b84e8e561f48094527a652
+Author: NegativeVibes <xavier_rate@outlook.com>
+Date:   Fri Mar 20 16:58:18 2020 +1100
+
+    Sprites
+
+commit 18c1fe910dd377652de4bebc4c3788272d111f59
+Author: NegativeVibes <xavier_rate@outlook.com>
+Date:   Fri Mar 20 15:17:16 2020 +1100
+
+    Prepping files
+
+commit 7d6384010f3e8f20c6e3c1beb8e55e47ed4faa3e
+Author: Nevermind1210 <xavier_rate@outlook.com>
+Date:   Fri Mar 20 15:12:43 2020 +1100
+
+    Initial commit

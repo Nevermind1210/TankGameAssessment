@@ -14,8 +14,8 @@ namespace Project2D
         {
             Game game = new Game();
 
-            InitWindow(640, 480, "Hello World");
-
+            InitWindow(640, 480, "Tanks but no tanks ;)");
+            SetTargetFPS(60);
             game.Init();
 
             while (!WindowShouldClose())
